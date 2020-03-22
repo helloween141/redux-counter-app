@@ -1,7 +1,6 @@
 import './styles.css'
 import { createStore, applyMiddleware } from 'redux'
 import { rootReducer } from './redux/rootReducer'
-import ReduxThunk from 'redux-thunk'
 
 import { addCounter, subCounter, asyncCounter, asyncList } from './redux/actions'
 import thunk from 'redux-thunk'
